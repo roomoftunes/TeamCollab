@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class G9_Finra {
   public static void main(String[] args) {
     int num = 30;
-    finra(num);
+    finra(num);  // calling the finra method.
   }
 
-  public static void finra(int num) {
+  public static void finra(int num) {  // create a Finra method
 
 
-    for (int i = 1; i <= num; i++) {
+    for (int i = 1; i <= num; i++) {  // create a for  to loop through the numbers from 1 to num.
       if (i % 15 == 0) {
         System.out.println("FINRA");
       } else if (i % 5 == 0) {
