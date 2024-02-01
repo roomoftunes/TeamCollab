@@ -1,7 +1,5 @@
 package week1_ahmet;
 
-import java.util.Scanner;
-
 public class G9_Finra {
   public static void main(String[] args) {
     int num = 30;
