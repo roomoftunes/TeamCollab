@@ -6,10 +6,13 @@ public class Divide {
 
         int result = 0;
 
-        while (num1 > 0){
-            num1 -= num2;
-            result++;
+        if(num1 > num2){
+            while (num1 > 0){
+                num1 -= num2;
+                result++;
+            }
         }
+
         return result;
     }
 
