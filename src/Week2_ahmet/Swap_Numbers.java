@@ -18,3 +18,7 @@ public class Swap_Numbers {
 
     }
 }
+
+/* Swap two numbers without using temporary variable
+
+ */
