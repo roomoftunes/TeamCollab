@@ -23,6 +23,8 @@ public class DivideWithoutDivisionOperator {
             result++;
         }
         System.out.println("Integer result of division of "+n1+" by "+n2+" is "+result);
+        double left = n1%n2;
+        System.out.println("left = " + left);
     }
 
 }
