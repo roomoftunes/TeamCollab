@@ -2,7 +2,7 @@ package week03_sandra;
 
 public class PrimeNumbers {
 
-    public static boolean checkIfPrime(int num) {
+    public static boolean isPrime(int num) {
 
         for (int i = 2; i < num; i++) {
             if (num % i == 0) {
