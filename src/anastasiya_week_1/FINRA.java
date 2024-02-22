@@ -1,4 +1,4 @@
-package Tasks1;
+package anastasiya_week_1;
 
 public class FINRA {
     public static void main(String[] args) {

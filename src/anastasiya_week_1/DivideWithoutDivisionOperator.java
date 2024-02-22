@@ -1,4 +1,4 @@
-package Tasks1;
+package anastasiya_week_1;
 
 import java.util.Scanner;
 
