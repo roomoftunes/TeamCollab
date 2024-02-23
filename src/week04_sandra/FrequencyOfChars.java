@@ -2,7 +2,7 @@ package week04_sandra;
 
 public class FrequencyOfChars {
     public static void main(String[] args) {
-        findFrequency("AABBBCCCDFF");
+        System.out.println(findFrequency("AAABBCCCCDFF22"));
     }
 
     public static String findFrequency(String str){
@@ -15,13 +15,11 @@ public class FrequencyOfChars {
                     count++;
                 }
             }
-            if(frequency.contains(ch + "")){
+            if(str.substring(0,i).contains(ch + "")){
                 continue;
             }
             frequency += ch + "" + count;
-
         }
-        System.out.println(frequency);
         return frequency;
     }
 }
