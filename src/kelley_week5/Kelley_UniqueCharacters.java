@@ -1,4 +1,4 @@
-package week5_kelley;
+package kelley_week5;
 
 public class Kelley_UniqueCharacters {
 
