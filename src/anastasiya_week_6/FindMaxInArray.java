@@ -12,6 +12,7 @@ public class FindMaxInArray {
         int[] arr = {1, 4, 2, 10, 5, 3, 5, 5, 4, 8};
         System.out.println(findMax(arr));
         System.out.println(findMaxByConversionIntoCollection(arr));
+        System.out.println(findMaxByConversionIntoCollection2(arr));
     }
     public static int findMax(int[]arr){
         int max = arr[0];
@@ -26,4 +27,14 @@ public class FindMaxInArray {
         ArrayList<Integer> list = Arrays.stream(arr).boxed().collect(Collectors.toCollection(ArrayList::new));
         int max = Collections.max(list);
     return max;}
+
+    public static int findMaxByConversionIntoCollection2(int[] arr) {
+        ArrayList<Integer> list = new ArrayList<>();
+        for (int i = 0; i < arr.length; i++) {
+            list.add(arr[i]);
+        }
+        int max = Collections.max(list);
+        return max;
+
+    }
 }
